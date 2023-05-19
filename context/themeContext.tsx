@@ -4,7 +4,7 @@ interface FavoritesProviderProps {
     favorites: any[]
     setFavorites(item: any): void;
 }
-
+const a = 5
 export const FavoritesContext = createContext<FavoritesProviderProps>({
     favorites: [],
     setFavorites: () => { }
